@@ -15,14 +15,14 @@ This project is a web application that uses Angular for the frontend and .NET Co
 - [License](#license)
 
 ## Features
-- Angular 15 for the frontend
-- .NET Core 7 for the backend
+- Angular 17 for the frontend
+- .NET Core 8 for the backend
 - RESTful API integration
 - Authentication and Authorization
 - Responsive design
 
 ## Prerequisites
-- Node.js (v14.x or later)
+- Node.js (v18.x or later)
 - Angular CLI (v15.x or later)
 - .NET Core SDK (v7.x or later)
 - SQL Server (for database)
