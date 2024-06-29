@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\angular\\Anivids\\api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "E:\\angular\\Anivids\\api\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "E:\\angular\\Anivids\\api\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T07:47:39.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\angular\\Anivids\\api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\angular\\Anivids\\api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAYwCsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T07:24:41.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\angular\\Anivids\\api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "E:\\angular\\Anivids\\api\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-28T13:19:50.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "E:\\angular\\Anivids\\api\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ITokenService.cs",
+              "ToolTip": "E:\\angular\\Anivids\\api\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "Interfaces\\ITokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T11:32:53.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "E:\\angular\\Anivids\\api\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Services\\TokenService.cs",
+              "ToolTip": "E:\\angular\\Anivids\\api\\Services\\TokenService.cs",
+              "RelativeToolTip": "Services\\TokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T11:31:41.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "E:\\angular\\Anivids\\api\\Dtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\UserDto.cs",
+              "ToolTip": "E:\\angular\\Anivids\\api\\Dtos\\UserDto.cs",
+              "RelativeToolTip": "Dtos\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T07:13:56.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "E:\\angular\\Anivids\\api\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserModel.cs",
+              "ToolTip": "E:\\angular\\Anivids\\api\\Models\\UserModel.cs",
+              "RelativeToolTip": "Models\\UserModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAEBXwA0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T18:01:50.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseApiController.cs",
+              "DocumentMoniker": "E:\\angular\\Anivids\\api\\Controllers\\BaseApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BaseApiController.cs",
+              "ToolTip": "E:\\angular\\Anivids\\api\\Controllers\\BaseApiController.cs",
+              "RelativeToolTip": "Controllers\\BaseApiController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T17:20:53.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\angular\\Anivids\\api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\angular\\Anivids\\api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-01T13:37:23.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\angular\\Anivids\\api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "E:\\angular\\Anivids\\api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAmwEYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T13:33:07.043Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
