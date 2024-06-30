@@ -7,6 +7,7 @@ using Microsoft.Extensions.Configuration;
 using System.Text;
 using api.Interfaces;
 using api.Services;
+using api.Extensions;
 
 namespace api
 {
@@ -57,17 +58,7 @@ namespace api
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            builder.Services.AddDbContext<DataContext>(Options => {
-              Options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
-            });
-            builder.Services.AddScoped<ITokenService, TokenService>();
-            builder.Services.AddCors(options =>
-            {
-                options.AddDefaultPolicy(policy =>
-                {
-                    policy.WithOrigins("http://localhost:4200");
-                });
-            });
+            builder.Services.AddApplicationService(builder.Configuration);
 
             var app = builder.Build();
 
