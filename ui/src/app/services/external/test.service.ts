@@ -4,11 +4,10 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class UserService {
+export class TestService {
 
-  constructor(private http:HttpClient) { 
-  }
+  constructor(private http: HttpClient) { }
   getWeather(){
-    return this.http.get("https://localhost:7107/WeatherForecast");
+    return this.http.get('https://localhost:7107/WeatherForecast')
   }
 }

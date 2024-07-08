@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { UserService } from './services/api/user.service';
+import { TestService } from './services/external/test.service';
 
 @Component({
   selector: 'app-root',
@@ -10,17 +10,18 @@ import { UserService } from './services/api/user.service';
   styleUrl: './app.component.scss'
 })
 export class AppComponent implements OnInit{
-  title = 'ui';
-  constructor(private userService:UserService ){
-
-  }
   data: any;
+  constructor(private testService: TestService){}
   ngOnInit(): void {
-    this.userService.getWeather().subscribe(
+    this.getWeather();
+  }
+  title = 'ui';
+  getWeather(){
+    this.testService.getWeather().subscribe(
       res =>{
         this.data = res;
-        console.log(res);
+        console.log(res)
       }
-    );
-  }
+    )
+  };
 }
