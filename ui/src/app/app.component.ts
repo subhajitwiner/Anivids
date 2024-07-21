@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { TestService } from './services/external/test.service';
+import { BrandComponent } from './brand/brand.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, BrandComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

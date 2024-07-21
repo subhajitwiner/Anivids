@@ -1,7 +1,6 @@
 ﻿using api.DataConfig;
 using api.Dtos;
 using api.Interfaces;
-using api.Migrations;
 using api.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;

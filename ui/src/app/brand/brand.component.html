@@ -1,0 +1,18 @@
+<div>
+    <h1>Brands</h1>
+    <button pButton pRipple label="Delete" (click)="createBrand({ id: '', name: 'New Brand' })"></button>
+    <ul>
+      <li *ngFor="let brand of brands">
+        {{ brand.name }}
+        <button pButton pRipple label="Edit" (click)="getBrandById(brand.id)"></button>
+        <button pButton pRipple label="Delete" (click)="deleteBrand(brand.id)"></button>
+      </li>
+    </ul>
+  </div>
+  
+  <div *ngIf="selectedBrand$ | async as selectedBrand">
+    <h2>Edit Brand</h2>
+    <input type="text" pInputText [(ngModel)]="selectedBrand.name" />
+    <button pButton pRipple label="Save" class="p-button-success" (click)="updateBrand(selectedBrand.id, selectedBrand)">
+    </button>
+  </div>
