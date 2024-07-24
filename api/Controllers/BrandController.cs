@@ -3,15 +3,9 @@ using api.Dtos;
 using api.Dtos.Brand;
 using api.Interfaces;
 using api.Models;
-using api.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
-using System;
-using System.Collections.Generic;
 
 namespace api.Controllers
 {
@@ -29,7 +23,7 @@ namespace api.Controllers
         {
             try
             {
-                var brandDtos = await _context.Brands
+                List<BrandDto> brandDtos = await _context.Brands
                     .Select(item => new BrandDto
                     {
                         Id = item.Id,
@@ -50,7 +44,7 @@ namespace api.Controllers
         {
             try
             {
-                var brand = await _context.Brands
+                BrandDto? brand = await _context.Brands
                     .Where(b => b.Id == Id)
                     .Select(b => new BrandDto
                     {
@@ -77,7 +71,7 @@ namespace api.Controllers
         {
             try
             {
-                var brand = new BrandModel
+                BrandModel brand = new BrandModel
                 {
                     Name = input.Name,
                 };
@@ -85,7 +79,7 @@ namespace api.Controllers
                 _context.Brands.Add(brand);
                 await _context.SaveChangesAsync();
 
-                var brandDto = new BrandDto
+                BrandDto brandDto = new BrandDto
                 {
                     Id = brand.Id,
                     Name = brand.Name,
@@ -109,7 +103,7 @@ namespace api.Controllers
 
             try
             {
-                var existingBrand = await _context.Brands.FindAsync(Id);
+                BrandModel? existingBrand = await _context.Brands.FindAsync(Id);
 
                 if (existingBrand == null)
                 {
@@ -138,12 +132,12 @@ namespace api.Controllers
             }
         }
 
-        [HttpDelete("{Id}")]
+        [HttpDelete("DeletedBy/{Id}")]
         public async Task<IActionResult> Delete(Guid Id)
         {
             try
             {
-                var brand = await _context.Brands.FindAsync(Id);
+                BrandModel? brand = await _context.Brands.FindAsync(Id);
 
                 if (brand == null)
                 {

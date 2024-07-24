@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "E:\\angular\\Anivids\\api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\dtos\\brand\\brandinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:dtos\\brand\\brandinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\dtos\\product\\productinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:dtos\\product\\productinputdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\dtos\\product\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:dtos\\product\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\models\\brandmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:models\\brandmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\dtos\\brand\\branddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:dtos\\brand\\branddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,63 +30,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "E:\\angular\\Anivids\\api\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "E:\\angular\\Anivids\\api\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAIAxwC8AAAAnAAAA",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\angular\\Anivids\\api\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "E:\\angular\\Anivids\\api\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAAAGoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T15:34:02.463Z",
+              "WhenOpened": "2024-07-24T17:20:53.588Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BrandInputDto.cs",
-              "DocumentMoniker": "E:\\angular\\Anivids\\api\\Dtos\\Brand\\BrandInputDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\Brand\\BrandInputDto.cs",
-              "ToolTip": "E:\\angular\\Anivids\\api\\Dtos\\Brand\\BrandInputDto.cs",
-              "RelativeToolTip": "Dtos\\Brand\\BrandInputDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T14:48:16.199Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BrandDto.cs",
-              "DocumentMoniker": "E:\\angular\\Anivids\\api\\Dtos\\Brand\\BrandDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\Brand\\BrandDto.cs",
-              "ToolTip": "E:\\angular\\Anivids\\api\\Dtos\\Brand\\BrandDto.cs",
-              "RelativeToolTip": "Dtos\\Brand\\BrandDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T14:47:12.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "BrandController.cs",
               "DocumentMoniker": "E:\\angular\\Anivids\\api\\Controllers\\BrandController.cs",
               "RelativeDocumentMoniker": "Controllers\\BrandController.cs",
               "ToolTip": "E:\\angular\\Anivids\\api\\Controllers\\BrandController.cs",
               "RelativeToolTip": "Controllers\\BrandController.cs",
-              "ViewState": "AQIAAIsAAAAAAAAAAAAuwGUAAAAYAAAA",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAuwJkAAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-21T14:43:31.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductInputDto.cs",
+              "DocumentMoniker": "E:\\angular\\Anivids\\api\\Dtos\\Product\\ProductInputDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Product\\ProductInputDto.cs",
+              "ToolTip": "E:\\angular\\Anivids\\api\\Dtos\\Product\\ProductInputDto.cs",
+              "RelativeToolTip": "Dtos\\Product\\ProductInputDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T16:35:13.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "E:\\angular\\Anivids\\api\\Dtos\\Product\\ProductDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Product\\ProductDto.cs",
+              "ToolTip": "E:\\angular\\Anivids\\api\\Dtos\\Product\\ProductDto.cs",
+              "RelativeToolTip": "Dtos\\Product\\ProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T16:30:58.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BrandModel.cs",
               "DocumentMoniker": "E:\\angular\\Anivids\\api\\Models\\BrandModel.cs",
               "RelativeDocumentMoniker": "Models\\BrandModel.cs",
@@ -94,8 +93,7 @@
               "RelativeToolTip": "Models\\BrandModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T07:24:21.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T07:24:21.372Z"
             }
           ]
         }
