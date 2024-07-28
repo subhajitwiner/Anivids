@@ -13,12 +13,12 @@ export class BrandService {
   constructor(private http: HttpClient) {}
 
   getAll(): Observable<BrandDto[]> {
-    return this.http.get<BrandDto[]>(this.apiUrl+'Brand/GetAllBrand/');
+    return this.http.get<BrandDto[]>(this.apiUrl+'Brand/GetAll/');
   }
 
   getById(id: string): Observable<BrandDto> {
-    const options = { params: new HttpParams().set('Id', id) }
-    return this.http.get<BrandDto>(`${this.apiUrl}Brand/getBrandByid/`,options);
+    // const options = { params: new HttpParams().set('Id', id) }
+    return this.http.get<BrandDto>(`${this.apiUrl}Brand/GetBrandById/${id}`);
   }
 
   create(payload: BrandDto): Observable<BrandDto> {
@@ -27,13 +27,13 @@ export class BrandService {
 
   update(id: string, payload: BrandDto): Observable<BrandDto> {
     const options = { params: new HttpParams().set('Id', id) }
-    return this.http.put<BrandDto>(this.apiUrl+"Brand/UpdateBrand/"+id, payload);
+    return this.http.put<BrandDto>(this.apiUrl+"Brand/Update/"+id, payload);
   }
   xyz(id:number,info:any){
     return this.http.put(this.apiUrl+id,info);
   }
 
   delete(id: string): Observable<void> {
-    return this.http.delete<void>(`${this.apiUrl}Brand/DeleteBrandById/${id}`);
+    return this.http.delete<void>(`${this.apiUrl}Brand/DeletedBy/${id}`);
   }
 }

@@ -94,7 +94,7 @@ namespace api.Controllers
         }
 
         [HttpPut("Update/{Id}")]
-        public async Task<IActionResult> Update(Guid Id, [FromBody] BrandDto input)
+        public async Task<ActionResult<BrandDto>> Update(Guid Id, [FromBody] BrandDto input)
         {
             if (Id != input.Id)
             {
@@ -113,7 +113,13 @@ namespace api.Controllers
                 existingBrand.Name = input.Name;
                 await _context.SaveChangesAsync();
 
-                return NoContent();
+                var updatedBrandDto = new BrandDto
+                {
+                    Id = existingBrand.Id,
+                    Name = existingBrand.Name
+                };
+
+                return Ok(updatedBrandDto);
             }
             catch (DbUpdateConcurrencyException)
             {

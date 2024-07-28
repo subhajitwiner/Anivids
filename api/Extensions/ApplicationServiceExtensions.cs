@@ -18,7 +18,7 @@ namespace api.Extensions
             {
                 options.AddDefaultPolicy(policy =>
                 {
-                    policy.WithOrigins("http://localhost:4200").AllowAnyMethod();
+                    policy.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader();
                 });
             });
             return services;
