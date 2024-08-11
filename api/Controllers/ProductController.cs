@@ -2,6 +2,7 @@
 using api.Dtos.Product;
 using api.Interfaces;
 using api.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Drawing.Drawing2D;
@@ -17,7 +18,8 @@ namespace api.Controllers
         {
             _context = context;
         }
-        
+
+        [Authorize]
         [HttpGet("GetAllProducts")]
         public async Task<ActionResult<IEnumerable<ProductDto>>> GetAllProducts()
         {

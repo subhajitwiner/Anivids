@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "E:\\angular\\Anivids\\api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\dtos\\brand\\branddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:dtos\\brand\\branddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\extensions\\identityserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:extensions\\identityserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\signalr\\presencehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:signalr\\presencehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\extensions\\applicationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:extensions\\applicationserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\dtos\\brand\\branddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|solutionrelative:dtos\\brand\\branddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE3B8528-B979-4206-8878-6695B09DCFF7}|api.csproj|e:\\angular\\anivids\\api\\dataconfig\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,11 +58,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\angular\\Anivids\\api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\angular\\Anivids\\api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-11T12:27:59.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\angular\\Anivids\\api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\angular\\Anivids\\api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T06:30:24.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PresenceHub.cs",
+              "DocumentMoniker": "E:\\angular\\Anivids\\api\\SignalR\\PresenceHub.cs",
+              "RelativeDocumentMoniker": "SignalR\\PresenceHub.cs",
+              "ToolTip": "E:\\angular\\Anivids\\api\\SignalR\\PresenceHub.cs",
+              "RelativeToolTip": "SignalR\\PresenceHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T05:47:50.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "BrandDto.cs",
               "DocumentMoniker": "E:\\angular\\Anivids\\api\\Dtos\\Brand\\BrandDto.cs",
               "RelativeDocumentMoniker": "Dtos\\Brand\\BrandDto.cs",
@@ -54,25 +109,23 @@
               "RelativeToolTip": "Dtos\\Brand\\BrandDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T12:48:58.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T12:48:58.685Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ApplicationServiceExtensions.cs",
               "DocumentMoniker": "E:\\angular\\Anivids\\api\\Extensions\\ApplicationServiceExtensions.cs",
               "RelativeDocumentMoniker": "Extensions\\ApplicationServiceExtensions.cs",
               "ToolTip": "E:\\angular\\Anivids\\api\\Extensions\\ApplicationServiceExtensions.cs",
               "RelativeToolTip": "Extensions\\ApplicationServiceExtensions.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAABhAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T12:38:15.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T12:38:15.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "DataContext.cs",
               "DocumentMoniker": "E:\\angular\\Anivids\\api\\DataConfig\\DataContext.cs",
               "RelativeDocumentMoniker": "DataConfig\\DataContext.cs",
@@ -84,20 +137,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ProductController.cs",
               "DocumentMoniker": "E:\\angular\\Anivids\\api\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
               "ToolTip": "E:\\angular\\Anivids\\api\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJIAAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABUAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-24T17:20:53.588Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "IdentityServiceExtensions.cs",
+              "DocumentMoniker": "E:\\angular\\Anivids\\api\\Extensions\\IdentityServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Extensions\\IdentityServiceExtensions.cs",
+              "ToolTip": "E:\\angular\\Anivids\\api\\Extensions\\IdentityServiceExtensions.cs",
+              "RelativeToolTip": "Extensions\\IdentityServiceExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T11:31:17.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "BrandController.cs",
               "DocumentMoniker": "E:\\angular\\Anivids\\api\\Controllers\\BrandController.cs",
               "RelativeDocumentMoniker": "Controllers\\BrandController.cs",
@@ -105,12 +171,11 @@
               "RelativeToolTip": "Controllers\\BrandController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAHYAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T14:43:31.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T14:43:31.938Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "ProductInputDto.cs",
               "DocumentMoniker": "E:\\angular\\Anivids\\api\\Dtos\\Product\\ProductInputDto.cs",
               "RelativeDocumentMoniker": "Dtos\\Product\\ProductInputDto.cs",
@@ -122,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "E:\\angular\\Anivids\\api\\Dtos\\Product\\ProductDto.cs",
               "RelativeDocumentMoniker": "Dtos\\Product\\ProductDto.cs",
@@ -134,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "BrandModel.cs",
               "DocumentMoniker": "E:\\angular\\Anivids\\api\\Models\\BrandModel.cs",
               "RelativeDocumentMoniker": "Models\\BrandModel.cs",
