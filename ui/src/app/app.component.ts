@@ -1,28 +1,25 @@
-import { Component, OnInit } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { TestService } from './services/external/test.service';
-import { BrandComponent } from './brand/brand.component';
+import { Component, Inject, PLATFORM_ID } from '@angular/core';
+import { TestService } from './test.service';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet, BrandComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
-export class AppComponent implements OnInit{
-  data: any;
-  constructor(private testService: TestService){}
+export class AppComponent {
+  messages: string[] = [];
+  message = '';
+  constructor(@Inject(PLATFORM_ID) private readonly platformId: Object,private readonly chatService: TestService) {}
   ngOnInit(): void {
-    this.getWeather();
+    this.chatService.receiveMessages()?.subscribe(res =>{
+      this.message= res
+    })
+    
   }
-  title = 'ui';
-  getWeather(){
-    this.testService.getWeather().subscribe(
-      res =>{
-        this.data = res;
-        console.log(res)
-      }
-    )
-  };
+
+  sendMessage() {
+    this.chatService.sendMessage(this.message);
+    this.message = '';
+  }
 }
+

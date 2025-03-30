@@ -1,0 +1,19 @@
+<p></p>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        
+        @for (item of datalist; track $index) {
+            <tbody>
+                <tr>
+                    <td>{{item.name}}</td>
+                    <td>{{item.age}}</td>
+                </tr>
+            </tbody>
+    }
+    </table>
+   

@@ -37,6 +37,35 @@ namespace api.Migrations
                     b.ToTable("Brands");
                 });
 
+            modelBuilder.Entity("api.Models.PhotoModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("IsMain")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("PublicId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Url")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("UserModelId")
+                        .HasColumnType("uniqueidentifier")
+                        .HasColumnName("UserId");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserModelId");
+
+                    b.ToTable("Photos");
+                });
+
             modelBuilder.Entity("api.Models.ProductModel", b =>
                 {
                     b.Property<Guid>("Id")
@@ -74,6 +103,20 @@ namespace api.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("City")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Country")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateOnly>("DateOfBirth")
+                        .HasColumnType("date");
+
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -82,8 +125,28 @@ namespace api.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Gender")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Interests")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Introduction")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("KnownAs")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("LastActive")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("LastName")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LookingFor")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<byte[]>("PasswordHash")
@@ -110,6 +173,17 @@ namespace api.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("api.Models.PhotoModel", b =>
+                {
+                    b.HasOne("api.Models.UserModel", "UserModel")
+                        .WithMany("Photos")
+                        .HasForeignKey("UserModelId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("UserModel");
+                });
+
             modelBuilder.Entity("api.Models.ProductModel", b =>
                 {
                     b.HasOne("api.Models.BrandModel", "Brand")
@@ -124,6 +198,11 @@ namespace api.Migrations
             modelBuilder.Entity("api.Models.BrandModel", b =>
                 {
                     b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("api.Models.UserModel", b =>
+                {
+                    b.Navigation("Photos");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,5 +1,7 @@
 ﻿using api.DataConfig;
 using api.Interfaces;
+using api.Interfaces.Repositories;
+using api.Reposetories;
 using api.Services;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,6 +16,8 @@ namespace api.Extensions
                 Options.UseSqlServer(configuration.GetConnectionString("Default"));
             });
             services.AddScoped<ITokenService, TokenService>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<UserRepository>();
             services.AddCors(options =>
             {
                 options.AddDefaultPolicy(policy =>
@@ -22,6 +26,7 @@ namespace api.Extensions
                 });
             });
             services.AddSignalR();
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             return services;
         }
     }

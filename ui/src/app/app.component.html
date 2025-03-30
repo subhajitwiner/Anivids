@@ -1,4 +1,6 @@
-
-
-<app-brand/>
-<router-outlet />
+<div>
+    <ul>
+      <li *ngFor="let message of messages">{{ message }}</li>
+    </ul>
+    <input [(ngModel)]="message" (keydown.enter)="sendMessage()" />
+  </div>
