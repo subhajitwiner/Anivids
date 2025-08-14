@@ -27,7 +27,7 @@ namespace api.Models
         public List<PhotoModel> Photos { get; set; } = [];
         public int GetAge()
         {
-            return DateOfBirth.calcualteAge();
+            return DateOfBirth.calculateAge();
         }
 
 
