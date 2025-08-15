@@ -38,7 +38,7 @@ namespace api.Controllers
             }
         }
 
-        [HttpGet("GetProductById{Id}")]
+        [HttpGet("GetProductById/{Id}")]
         public async Task<ActionResult<ProductDto>> GetProductById(Guid Id)
         {
             try {
